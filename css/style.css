@@ -1,0 +1,82 @@
+body {
+  background-color: #0d1a2d;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  font-family: "Outfit";
+}
+
+div {
+  margin-bottom: 5%;
+}
+
+#blocequi {
+  width: 355px;
+  margin: auto;
+  background-color: #15273f;
+  padding: 20px;
+  border-radius: 2%;
+}
+
+.pictureequi {
+  border-radius: 2%;
+}
+
+.textequi > h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.textequi > p {
+  color: #586889;
+  font-size: 18px;
+}
+
+.infosequi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infosequi .span1 {
+  color: hsl(178, 100%, 50%);
+}
+
+.infosequi .span2 {
+  color: #586889;
+}
+
+.infoscrea {
+  display: flex;
+  grid-column-gap: 10px;
+  align-items: center;
+  color: #586889;
+  border-top: 1px solid #586889;
+  padding-top: 5%;
+}
+
+.infoscrea img {
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.infoscrea span {
+  color: hsl(0, 0%, 100%);
+}
+
+.infoscrea span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  #blocequi {
+    width: 300px;
+  }
+}
